@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.qa.datc.testscript.CreateGroupRoleTest"/>
+      
+      <class name="com.qa.datc.testscript.CreateRoleTestscript"/>
+      <class name="SearchInternalUserWithLoginID"/>
+      
+    
+      <class name="SearchInternalUserWithBlank"/>
+      <class name="com.search.testscript.Search_Validations"/>
+      <class name="com.search.testscript.Search"/>
+      <class name="com.createinternaluser.CreateInternalUserWithValidData"/>
+      
+      <class name="com.search.testscript.GroupSearchValidation"/>
+      <class name="com.create.testscript.CreateRoleTestscript"/>
+      <class name="com.create.testscript.CreateGroupRoleTest"/>
+      <class name="com.createinternaluser.CreateInternalUserWith_blank"/>
+      <class name="com.qa.datc.testscript.Search"/>
+      <class name="com.createinternaluser.CreateInternalUserWith_InvalidData"/>
+      <class name="com.search.testscript.GroupSearch"/>
+      <class name="com.qa.datc.testscript.Search_Validations"/>
+      <class name="SearchBlankFirstname"/>
+      <class name="com.createinternaluser.CreateInternalUserWithSpc_Char"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
